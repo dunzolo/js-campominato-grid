@@ -19,6 +19,9 @@ let difficulty = document.getElementById('difficulty');
 
 button.addEventListener('click', function(){
 
+    if(grid)
+        grid.innerHTML="";
+
     if(difficulty[0].selected == true){
         // creo un ciclo for per aggiungere le caselle all'interno della griglia
         for(let i = 1; i <= 100; i++){
