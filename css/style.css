@@ -26,4 +26,12 @@ body{
     height: calc(100% / 10);
     background-color: white;
     border: 1px solid black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checked{
+    background-color: red;
 }
