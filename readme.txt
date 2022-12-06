@@ -3,7 +3,7 @@ L'utente clicca su un bottone che genererà una griglia di gioco quadrata. Ogni 
 - creo la funzione che genera la griglia composta da 10 caselle
     - creo l'elemento che devo aggiungere all'interno del contenitore
     - aggiungo a questo elemento una classe per stilizzarlo
-- creo un ciclo for per verificare tutte le caselle presenti all'interno della griglia
+- creo un ciclo for per aggiungere le caselle all'interno della griglia
 - creo l'evento al click di una determinata casella
     - la rispettiva celle deve colorarsi di azzurro
     - scrivo il messaggio in console log della rispettiva casella selezionata
