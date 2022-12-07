@@ -26,7 +26,7 @@ button.addEventListener('click', function(){
         grid.innerHTML="";
     }
 
-    if(difficulty[0].selected == true){
+    if(difficulty[0].selected){
         // creo un ciclo for per aggiungere le caselle all'interno della griglia
         for(let i = 1; i <= 100; i++){
         
@@ -38,14 +38,14 @@ button.addEventListener('click', function(){
             square.addEventListener('click',function(){
                 this.classList.add('checked');
                 
-                console.log(`La casella selezionata contiene il numero: ${i}`);
+                console.log(`La casella selezionata contiene il numero: ${this.innerText}`);
             });
             
             // aggiungo gli elementi alla griglia in HTML
             grid.appendChild(square);
         }
     }
-    else if(difficulty[1].selected == true){
+    else if(difficulty[1].selected){
         // creo un ciclo for per aggiungere le caselle all'interno della griglia
         for(let i = 1; i <= 81; i++){
         
@@ -57,7 +57,7 @@ button.addEventListener('click', function(){
             square.addEventListener('click',function(){
                 this.classList.add('checked');
                 
-                console.log(`La casella selezionata contiene il numero: ${i}`);
+                console.log(`La casella selezionata contiene il numero: ${this.innerText}`);
             });
             
             // aggiungo gli elementi alla griglia in HTML
@@ -76,7 +76,7 @@ button.addEventListener('click', function(){
             square.addEventListener('click',function(){
                 this.classList.add('checked');
                 
-                console.log(`La casella selezionata contiene il numero: ${i}`);
+                console.log(`La casella selezionata contiene il numero: ${this.innerText}`);
             });
             
             // aggiungo gli elementi alla griglia in HTML
